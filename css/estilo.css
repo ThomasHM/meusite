@@ -96,10 +96,11 @@ body {
 
 footer {
         clear: both;
-        margin: auto;
-        width: 100%;
+        margin: 0;
+        width: auto;
         bottom: 0px;
-        padding: 25px;
+        padding-top: 25px;
+      
         
         
     
@@ -120,6 +121,8 @@ footer {
     font-family: 'Varela', sans-serif;
     color: #827F7F;
     font-size: 0.6em;
+    padding-top: 5px;
+    
     
 }
 
