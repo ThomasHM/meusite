@@ -24,7 +24,6 @@ body {
     display: inline-block;
     float: left;
     padding: 2px;
-    border:1px solid red;
     margin:0px;
     width: 80px;
 
@@ -33,7 +32,7 @@ body {
 }
 
 .legenda {
-    font-size: 11px;
+    font-size: 10px;
     text-align: center;
     color: white;
     padding: 14px;
