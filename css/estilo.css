@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    border:1px solid red;
 
 }
 
@@ -49,6 +50,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center
+    border: 1px solid red;
+
 }
 
 .logo {
