@@ -147,4 +147,13 @@ body {
         font-weight: bolder;
     
     }
+    #rodape {
+        text-align: center;
+        margin-top: 0px;
+        padding: 25px 0px 0px 0px;
+        width: 100%;
+        height: auto;
+        
+    
+    }
 }
