@@ -96,16 +96,20 @@ body {
 
 #rodape {
     text-align: center;
-    margin-top: 0px;
-    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    padding: 250px 0px -50px 0px;
     width: 100%;
-    height: auto;
+    height: 50px;
+    
+    margin-top: 1%;
     
 
 }
 
 #rodape a {
-    padding: 30px 10px 10px 5px;
+    padding-top: 10px;
+   
+  
     
     
 }
@@ -115,6 +119,8 @@ body {
     font-family: 'Varela', sans-serif;
     color: #827F7F;
     font-size: 0.6em;
+    padding-bottom: 0px;
+    
 }
 
 @media (max-width: 600px) {
@@ -147,13 +153,5 @@ body {
         font-weight: bolder;
     
     }
-    #rodape {
-        text-align: center;
-        margin-top: 0px;
-        padding: 25px 0px 0px 0px;
-        width: 100%;
-        height: auto;
-        
-    
-    }
+   
 }
