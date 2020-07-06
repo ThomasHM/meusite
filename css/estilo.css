@@ -24,21 +24,23 @@ body {
     display: inline-block;
     float: left;
     padding: 2px;
-    
+    border:1px solid red;
     margin:0px;
-    width: 90px;
+    width: 80px;
 
 
     
 }
 
 .legenda {
+    font-size: 11px;
     text-align: center;
     color: white;
     padding: 14px;
     margin: 0px;
     font-family: 'Varela', sans-serif; 
     font-weight: bolder;
+    
 }
 
 
