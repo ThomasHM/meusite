@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 
+/*Background*/
+
 body {
     background-image: url(../imagens/4.jpg);
     background-position: center;
@@ -8,27 +10,52 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    
+
 }
 
+/*Apresentação e nome */
 #box {
     padding: 15% 20% 0% 20%;
     color: white;
     text-align: center;
-    font-family: 'Varela', sans-serif; 
+    font-family: 'Varela', sans-serif;
 }
 
+/*Formatação do container de redes sociais*/
+
+#redessociais {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#redessociais a {
+    color: white;
+    padding: 10px;
+}
+
+/*Formatação do Container de Imagens*/
+
+.container {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
 
 .logo {
     cursor: pointer;
-    display: inline-block;
+    display: block;
     float: left;
     padding: 2px;
-    margin:0px;
+    margin: 0px;
     width: 80px;
 
-
-    
 }
 
 .legenda {
@@ -37,23 +64,23 @@ body {
     color: white;
     padding: 14px;
     margin: 0px;
-    font-family: 'Varela', sans-serif; 
+    font-family: 'Varela', sans-serif;
     font-weight: bolder;
-    
+
 }
 
 
 .grow:hover {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-        transition-delay: 0.2s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition-delay: 0.2s;
 }
 
 .grow {
-    display:block;
+    display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
 
 #rodape {
@@ -63,9 +90,10 @@ body {
     bottom: 10px;
     left: -3px;
     width: 100%;
-    height:55px;   /* Mesma Altura do Rodapé */
-    
-   
+    height: 55px;
+    /* Mesma Altura do Rodapé */
+
+
 
 }
 
@@ -80,30 +108,6 @@ body {
     font-family: 'Varela', sans-serif;
     color: #827F7F;
     font-size: 0.6em;
-}
-
-#redessociais {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
-#redessociais a {
-    color: white;
-    padding: 10px;
-}
-
-.container {
-    margin-top: 10px;
-   
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
-   
 }
 
 
