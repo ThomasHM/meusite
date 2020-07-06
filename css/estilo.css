@@ -25,7 +25,7 @@ body {
 /*Formatação do container de redes sociais*/
 
 #redessociais {
-    width: 400px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
