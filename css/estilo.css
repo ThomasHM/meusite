@@ -92,7 +92,7 @@ body {
     
 }
 
-/*Rodape*/
+/*Rodape
 
 footer {
         clear: both;
@@ -126,6 +126,41 @@ footer {
     
 }
 
+*/
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+    
+}
+
+#rodape {
+    text-align: center;
+}
+
+#rodape a {
+    padding: 5px;
+    text-align: center;
+    
+    
+
+}
+    
+
+#rodape p {
+    font-family: 'Varela', sans-serif;
+    color: #827F7F;
+    font-size: 0.6em;
+    padding-top: 15px;
+    text-align: center;
+    
+    
+}
+
+
+
 @media (max-width: 600px) {
 
     .logo {
@@ -155,6 +190,13 @@ footer {
         font-family: 'Varela', sans-serif;
         font-weight: bolder;
     
+    }
+
+    footer {
+        clear: both;
+        width: 100%;
+        
+        
     }
    
 }
