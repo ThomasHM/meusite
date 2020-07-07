@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    
+
 
 }
 
@@ -20,6 +20,7 @@ body {
     color: white;
     text-align: center;
     font-family: 'Varela', sans-serif;
+
 }
 
 /*Formatação do container de redes sociais*/
@@ -29,21 +30,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-   
+
 
 }
 
 #redessociais a {
     color: white;
     padding: 10px;
-   
+
 
 }
 
 /*Formatação do Container de Imagens*/
 
 .container {
-    
+
     margin-top: 10px;
     margin-bottom: 0px;
     width: 100%;
@@ -52,8 +53,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center
-    
-
 }
 
 .logo {
@@ -89,40 +88,39 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto
-    
 }
 
 /*Rodape*/
 
 footer {
-        clear: both;
-        margin: 0;
-        width: auto;
-        bottom: 0px;
-        padding-top: 25px;
-         
-        
-    
+    clear: both;
+    margin: 0;
+    width: auto;
+    bottom: 0px;
+    padding-top: 60px;
+
+
+
 }
 
-#rodape  {
+#rodape {
     text-align: center;
 }
 
 #rodape a {
     padding: 5px;
-    
+
 
 }
-    
+
 
 #rodape p {
     font-family: 'Varela', sans-serif;
     color: #827F7F;
     font-size: 0.6em;
     padding-top: 15px;
-    
-    
+
+
 }
 
 
@@ -137,16 +135,15 @@ footer {
         padding: 2px;
         margin: 0px 4px 0px 4px;
         width: 70px;
-        border: 1px solid red;
-    
+        
+
     }
-    
+
     .grow {
         width: 70px;
         display: block;
         margin-left: auto;
         margin-right: auto
-        
     }
 
     .legenda {
@@ -157,7 +154,7 @@ footer {
         margin: 0px;
         font-family: 'Varela', sans-serif;
         font-weight: bolder;
-    
+
     }
 
     footer {
@@ -166,11 +163,87 @@ footer {
         width: auto;
         bottom: 0px;
         padding-top: 5px;
-        border: 1px solid red;
         margin-top: 270px;
-        
-    
+
+
+    }
+
 }
-  
-   
+
+@media (min-width: 1900px) {
+    .logo {
+        cursor: pointer;
+        display: block;
+        float: left;
+        padding: 10px;
+        margin: 0px 4px 0px 4px;
+        width: 250px;
+
+
+    }
+
+    .grow {
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .legenda {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        padding: 14px;
+        margin: 0px;
+        font-family: 'Varela', sans-serif;
+        font-weight: bolder;
+
+    }
+
+    footer {
+        clear: both;
+        margin: 0;
+        width: auto;
+        bottom: 0px;
+        padding-top: 5px;
+        margin-top: 5px;
+
+
+    }
+
+    #rodape img {
+        padding: 5px;
+        width: 80px;
+        height: 80px;
+
+
+    }
+
+
+    #rodape p {
+        font-family: 'Varela', sans-serif;
+        color: #827F7F;
+        font-size: 1em;
+        padding-top: 15px;
+
+
+    }
+
+    #box h1 {
+        font-size: 4em;
+    }
+
+    #box p {
+        font-size: 2em;
+    }
+
+    #redessociais a {
+        color: white;
+        padding: 10px;
+        font-size: 2em;
+
+
+    }
+
+
 }
