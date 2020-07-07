@@ -243,6 +243,13 @@ footer {
 
 
     }
+    #box {
+        padding: 10% 20% 0% 20%;
+        color: white;
+        text-align: center;
+        font-family: 'Varela', sans-serif;
+    
+    }
 
 
 }
